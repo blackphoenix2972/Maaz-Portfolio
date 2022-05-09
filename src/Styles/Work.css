@@ -1,0 +1,52 @@
+.work-list >ul{
+    list-style-type: disc;
+    margin:20px;
+    
+}
+
+.work-grid-container {
+    background-color: #066163;
+    margin:auto;
+    padding:20px;
+    border-radius: 30px;
+    width: 70%;
+    
+
+}
+
+.work-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+}
+
+.work-subtitle {
+    font-size: 40px;
+    margin-bottom: 3px;
+ 
+}
+
+.work-description {
+    font-size: large;
+}
+
+@media (max-width: 540px) {
+    .work-grid-container{
+        margin: 0px;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .work-title {
+        font-size: 30px;
+    }
+
+    .work-subtitle {
+        font-size: 25px;
+    }
+
+    .work-description {
+        font-size: 16px;
+        padding:20px;
+    }
+    
+}

@@ -1,0 +1,44 @@
+
+
+.title-about {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+.about-image > img{
+    
+ margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.about-card-container {
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    color:black;
+    padding:30px;
+    border-radius: 30px;
+}
+ *{
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .about-points > ul{
+    list-style-type: disc;
+    
+ }
+    .about-points > ul > li{
+        color:black
+    }
+    #about-subtitle {
+        color:black;
+        font-weight: 800;
+    }
+
+    @media  (max-width: 540px) {
+        .title-about {
+            font-size: 50px;
+        }
+    }

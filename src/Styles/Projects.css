@@ -1,0 +1,13 @@
+.projects-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 130px;
+    
+}
+.projects-grid-container > img {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #c6a5a5;
+}
